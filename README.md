@@ -16,3 +16,18 @@ Installation Requirements:
 7. Ensure to set the Scala version for the project in the IDE to be 2.10.6. Without it, you would run into compiler issues.
 
 
+If you don't have a local Hadoop installation, you have to set the variable HADOOP_CONF
+Otherwise you will get an error "... Exception: Could not locate executable null\bin\winutils.exe in the Hadoop ..."
+
+For Windows Users
+-----------------
+
+If you don't have a local Hadoop installation, you have to set the variable HADOOP_CONF
+Otherwise you will get an error "... Exception: Could not locate executable null\bin\winutils.exe in the Hadoop ..."
+ 
+Download http://public-repo-1.hortonworks.com/hdp-win-alpha/winutils.exe and put it to DISK:\FOLDERS\bin\
+
+Set the variable 
+HADOOP_CONF=DISK:\FOLDERS
+
+
